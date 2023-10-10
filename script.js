@@ -3,7 +3,7 @@ function generateNumber() {
     const max = Math.floor(document.querySelector(".input-max").value)
 
 if(min>=max){
-    alert( "valor Entre tem que ser maior que valor E")
+    alert( "O valor E tem que ser maior que o valor ENTRE")
     }
 
 

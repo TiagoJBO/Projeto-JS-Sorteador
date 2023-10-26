@@ -1,3 +1,5 @@
+const resultNumber= document.querySelector("p")
+
 function generateNumber() {
     const min = Math.ceil(document.querySelector(".input-min").value)
     const max = Math.floor(document.querySelector(".input-max").value)
@@ -8,9 +10,10 @@ if(min>=max){
 
 
     else{
-        const result = Math.floor(Math.random() * (max - min) + min)   
+        const result = Math.floor(Math.random() * (max - min) + min) 
+        resultNumber.innerHTML= result  
 
-    alert(result)
+    
     }
 
     
